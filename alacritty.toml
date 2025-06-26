@@ -194,7 +194,7 @@ startup_mode = "Windowed"
 # - "Dark"  → 强制暗色
 # - "Light" → 强制亮色
 # - "None"  → 跟随系统（默认）
-decorations_theme_variant = "Light"
+decorations_theme_variant = "Dark"
 
 # 调整窗口尺寸时，是否以字符单元为最小单位
 # true  → 每次缩放都是一个字符单元的整数倍
