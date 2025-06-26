@@ -1,0 +1,118 @@
+[keyboard]
+bindings = [
+        # ===========================
+        # 新建窗口（多开 Alacritty）
+        # 快捷键：Ctrl + Shift + N
+        # ===========================
+    { key = "M", mods = "Control|Shift", action = "CreateNewWindow" },
+
+        # ===========================
+        # 打开全屏
+        # 快捷键：F11
+        # ===========================
+    { key = "F11", action = "ToggleFullscreen" },
+
+        # ===========================
+        # 打开最大化
+        # 快捷键：F10
+        # ===========================
+    { key = "F10", action = "ToggleMaximized" },
+
+        # ===========================
+        # 增大字体
+        # 快捷键：Ctrl + Shift + =
+        # ===========================
+    { key = "Equals", mods = "Control|Shift", action = "IncreaseFontSize" },
+
+        # ===========================
+        # 减小字体
+        # 快捷键：Ctrl + Shift + -
+        # ===========================
+    { key = "Minus", mods = "Control|Shift", action = "DecreaseFontSize" },
+    { key = "T", mods = "Control|Shift", action = "CreateNewTab" },
+
+        # ===========================
+        # 重置字体大小
+        # 快捷键：Ctrl + Shift + 0
+        # ===========================
+    { key = "Key0", mods = "Control|Shift", action = "ResetFontSize" },
+
+        # ===========================
+        # 页面滚动（上翻一页）
+        # 快捷键：Ctrl + Shift + Up
+        # ===========================
+    { key = "Up", mods = "Control|Shift", action = "ScrollPageUp" },
+
+        # ===========================
+        # 页面滚动（下翻一页）
+        # 快捷键：Ctrl + Shift + Down
+        # ===========================
+    { key = "Down", mods = "Control|Shift", action = "ScrollPageDown" },
+
+        # ===========================
+        # 滚动到顶部
+        # 快捷键：Ctrl + Shift + Home
+        # ===========================
+    { key = "Home", mods = "Control|Shift", action = "ScrollToTop" },
+
+        # ===========================
+        # 滚动到底部
+        # 快捷键：Ctrl + Shift + End
+        # ===========================
+    { key = "End", mods = "Control|Shift", action = "ScrollToBottom" },
+
+        # ===========================
+        # 粘贴剪贴板内容
+        # 快捷键：Ctrl + Shift + V
+        # ===========================
+    { key = "V", mods = "Control|Shift", action = "Paste" },
+
+        # ===========================
+        # 复制当前选中内容
+        # 快捷键：Ctrl + Shift + C
+        # ===========================
+    { key = "C", mods = "Control|Shift", action = "Copy" },
+
+        # ===========================
+        # 清除历史输出
+        # 快捷键：Ctrl + Shift + K
+        # ===========================
+    { key = "K", mods = "Control|Shift", action = "ClearHistory" },
+
+        # ===========================
+        # 退出终端
+        # 快捷键：Ctrl + Shift + Q
+        # ===========================
+    { key = "Q", mods = "Control|Shift", action = "Quit" },
+
+        # ===========================
+        # 打开 URL（与 hints 联动）
+        # 快捷键：Ctrl + Shift + O
+        # ===========================
+    { key = "O", mods = "Control|Shift", action = "SearchForward" },
+
+        # ===========================
+        # 自定义输入字符
+        # 快捷键：Ctrl + Shift + L，直接输入 l 字符
+        # ===========================
+    { key = "L", mods = "Control|Shift", chars = "l" },
+
+        # ===========================
+        # 粘贴选择缓冲区（仅 Linux/BSD）
+        # 快捷键：Ctrl + Shift + Insert
+        # ===========================
+    { key = "Insert", mods = "Control|Shift", action = "PasteSelection" },
+
+        # ===========================
+        # 复制选择缓冲区（仅 Linux/BSD）
+        # 快捷键：Ctrl + Shift + Y
+        # ===========================
+    { key = "Y", mods = "Control|Shift", action = "CopySelection" },
+
+        # ===========================
+        # 简单全屏（macOS 专用）
+        # 快捷键：F12
+        # ===========================
+    { key = "F12", action = "ToggleSimpleFullscreen" },
+
+]
