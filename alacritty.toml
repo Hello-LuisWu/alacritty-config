@@ -178,7 +178,7 @@ position = { x = 1500, y = 300}  # 启动后窗口的位置
 # - "None"         → 无边框无标题栏
 # - "Transparent"  → macOS 专用，透明标题栏 + 按钮
 # - "Buttonless"   → macOS 专用，透明标题栏，无按钮
-decorations = "Full"
+decorations = "Buttonless"
 opacity = 0.7
 title = "Luis Wu"
 padding = { x = 5, y = 2}  # 内边距
