@@ -1,0 +1,51 @@
+[hints]
+
+# 提示标签键位（推荐更容易按）
+alphabet = "arstneioqwfpdluy"
+
+[[hints.enabled]]
+
+# URL 打开（核心功能）
+regex = "(ipfs:|ipns:|magnet:|mailto:|gemini://|gopher://|https://|http://|news:|file:|git://|ssh:|ftp://)[^\\u0000-\\u001F\\u007F-\\u009F<>\"\\s{-}\\^⟨⟩`\\\\]+"
+
+command = "open"
+
+post_processing = true
+persist = false
+hyperlinks = true
+
+mouse.enabled = true
+
+binding = { key = "O", mods = "Control|Shift" }
+
+
+############################
+# 文件路径快速打开
+############################
+
+[[hints.enabled]]
+
+regex = "(/[^\\s:]+)+"
+
+command = "open"
+
+post_processing = true
+persist = false
+
+binding = { key = "F", mods = "Control|Shift" }
+
+
+############################
+# 快速复制选中内容
+############################
+
+[[hints.enabled]]
+
+regex = "[A-Za-z0-9._/-]+"
+
+action = "Copy"
+
+post_processing = false
+persist = false
+
+binding = { key = "Y", mods = "Control|Shift" }

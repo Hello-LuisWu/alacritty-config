@@ -13,6 +13,7 @@ import = [
     "~/.config/alacritty/conf/cursor.toml",     # 光标配置
     "~/.config/alacritty/conf/mouse.toml",     # 鼠标配置
     "~/.config/alacritty/conf/bell.toml",     # 提示音配置
+    "~/.config/alacritty/conf/hints.toml",     # hints 配置
 ]
 working_directory = "None"
 live_config_reload = true  # 保存是自动加载配置文件
