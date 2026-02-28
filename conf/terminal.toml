@@ -1,0 +1,28 @@
+# ===== 终端配置 =====
+# 控制默认使用的 shell，以及是否允许通过 OSC52 协议进行剪贴板操作（常用于 SSH 远程复制粘贴）。
+[terminal]
+# ==========================
+# 设置默认终端 Shell
+# - program ：指定终端路径
+# - args    ：传递给 Shell 的参数
+# ==========================
+
+# 示例：使用 zsh 并以登录模式启动
+shell = { program = "/bin/zsh", args = ["-l"] }
+
+# MacOS 示例：
+# shell = { program = "/opt/homebrew/bin/fish", args = ["-l"] }
+
+# Windows 示例：
+# shell = { program = "C:\\Program Files\\Git\\bin\\bash.exe", args = ["--login"] }
+
+# ==========================
+# 是否允许使用 OSC52 协议进行剪贴板操作
+# - 用于 SSH 场景下远程复制
+# - 四个选项：
+#   - "Disabled"    → 禁用
+#   - "OnlyCopy"    → 仅允许复制
+#   - "OnlyPaste"   → 仅允许粘贴
+#   - "CopyPaste"   → 允许复制和粘贴
+# ==========================
+osc52 = "CopyPaste"

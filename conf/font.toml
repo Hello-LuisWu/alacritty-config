@@ -1,0 +1,15 @@
+# ===== 字体配置 =====
+[font]
+size = 18
+normal = {family = "Iosevka Nerd Font", style = "Medium"}
+bold = {family = "Iosevka Nerd Font", style = "Bold" }
+italic = { family = "Iosevka Nerd Font", style = "Italic"}
+bold_italic = { family = "Iosevka Nerd Font", style = "Bold Italic"}
+offset = { x = 0, y = 0 }  # 字符间距和行距
+glyph_offset = { x = 0, y = 0 }    # 调整字符在单元格中的位置
+
+# 是否启用内置的 box drawing 字符
+# （表格边框、powerline 图标等显示更平滑）
+# true = 启用（推荐），false = 使用字体自带的
+builtin_box_drawing = true
+

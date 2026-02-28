@@ -1,0 +1,44 @@
+# ===== 鼠标配置 =====
+# 用于设置鼠标在终端中的行为：
+#   输入时是否隐藏鼠标; 鼠标按键绑定
+#   可以通过鼠标执行复制、粘贴、选择等操作
+[mouse]
+
+# ===================================
+# 输入时隐藏鼠标
+# true  → 打字时自动隐藏鼠标光标
+# false → 始终显示鼠标（默认）
+# ===================================
+hide_when_typing = true
+
+
+# ===================================
+# 鼠标按键绑定
+# - mouse ：指定鼠标按键
+#    → "Left"（左键）
+#    → "Right"（右键）
+#    → "Middle"（中键）
+#    → "Back"（鼠标侧键后退）
+#    → "Forward"（鼠标侧键前进）
+#
+# - mods ：修饰键
+#    → "Control"、"Shift"、"Alt"、"Command"（可组合使用）
+#
+# - action：
+#    → Paste                 粘贴
+#    → Copy                  复制
+#    → ExpandSelection       将选择范围扩展到当前鼠标位置
+#    → 也支持 keyboard 的其他 action
+# ===================================
+
+bindings = [
+  # 右键 + Ctrl → 粘贴
+  { mouse = "Right", mods = "None", action = "Paste" },
+
+  # 中键点击 → 复制当前选择
+  # { mouse = "Middle", mods = "None", action = "Copy" },
+
+  # Shift + 左键 → 扩展选择
+  { mouse = "Left", mods = "None", action = "Copy" },
+  # { mouse = "Left", mods = "None", action = "ExpandSelection" },
+]

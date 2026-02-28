@@ -1,4 +1,5 @@
 [keyboard]
+
 bindings = [
         # ===========================
         # 新建窗口（多开 Alacritty）

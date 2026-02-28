@@ -1,4 +1,6 @@
-# Colors (Gruvbox Material Dark Medium)
+# ===== 颜色配置 =====
+[colors]
+draw_bold_text_with_bright_colors = true
 
 [colors.primary]
 background = '#282828'

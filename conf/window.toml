@@ -1,0 +1,54 @@
+# ===== 窗口配置 =====
+[window]
+dynamic_title = false   # 是否允许终端程序修改窗口标题
+blur = true   # 开启模糊
+position = { x = 1500, y = 300}  # 启动后窗口的位置
+
+# 窗口装饰
+# - "Full"         → 有边框 + 标题栏（默认）
+# - "None"         → 无边框无标题栏
+# - "Transparent"  → macOS 专用，透明标题栏 + 按钮
+# - "Buttonless"   → macOS 专用，透明标题栏，无按钮
+decorations = "Buttonless"
+opacity = 0.7
+title = "Luis Wu"
+padding = { x = 5, y = 2}  # 内边距
+
+# 启动模式
+# - "Windowed"         → 普通窗口（默认）
+# - "Maximized"        → 启动时最大化
+# - "Fullscreen"       → 启动时全屏
+# - "SimpleFullscreen" → macOS 专用，全屏但可叠加其他窗口
+startup_mode = "Windowed"
+
+# 窗口装饰主题（仅限 GTK/Wayland/macOS）
+# - "Dark"  → 强制暗色
+# - "Light" → 强制亮色
+# - "None"  → 跟随系统（默认）
+decorations_theme_variant = "Dark"
+
+# 调整窗口尺寸时，是否以字符单元为最小单位
+# true  → 每次缩放都是一个字符单元的整数倍
+# false → 自由缩放
+# 支持：macOS 和 X11
+resize_increments = true
+
+# 窗口初始尺寸（以字符为单位，而不是像素）
+# columns: 列数，最小 2
+# lines: 行数，最小 1
+# 0 表示自动由窗口管理器决定
+# 修改需要重启生效
+dimensions = { columns = 100, lines = 32 }
+
+# macOS 专用
+# Option 键是否作为 Alt
+# - "OnlyLeft"  → 左 Option
+# - "OnlyRight" → 右 Option
+# - "Both"      → 两个 Option
+# - "None"      → 都不作为 Alt（默认）
+option_as_alt = "None"
+
+# 窗口层级
+# - "Normal"        → 默认窗口
+# - "AlwaysOnTop"   → 始终置顶
+level = "Normal"
