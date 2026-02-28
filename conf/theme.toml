@@ -1,0 +1,137 @@
+# ===== 颜色配置 =====
+[colors]
+
+# 粗体文字使用亮色版本
+# 建议开启，否则 bold 不明显
+draw_bold_text_with_bright_colors = true
+
+# 是否让所有背景颜色透明
+# false = 只有默认背景透明
+# true  = 所有单元格透明
+transparent_background_colors = true
+
+
+########################
+# 主题颜色 (Catppuccin Mocha)
+########################
+[colors.primary]
+
+# 终端背景颜色
+background = "#1e1e2e"
+
+# 终端文字默认颜色
+foreground = "#cdd6f4"
+
+# 暗淡文字颜色
+dim_foreground = "#7f849c"
+
+# 粗体高亮文字颜色
+bright_foreground = "#f5e0dc"
+
+
+###############################
+# 光标颜色
+###############################
+
+# text   = 光标内文字颜色
+# cursor = 光标颜色
+[colors.cursor]
+
+text = "#1e1e2e"
+cursor = "#f5e0dc"
+
+
+############################
+# 搜索颜色（Ctrl+Shift+F）
+############################
+[colors.search]
+
+# 普通匹配结果
+matches = { foreground = "#1e1e2e", background = "#a6e3a1" }
+
+# 当前匹配项
+focused_match = { foreground = "#1e1e2e", background = "#f9e2af" }
+
+
+############################
+# hints 提示颜色
+############################
+[colors.hints]
+
+start = { foreground = "#1e1e2e", background = "#f9e2af" }
+
+end = { foreground = "#1e1e2e", background = "#f38ba8" }
+
+
+############################
+# 底部栏颜色
+############################
+[colors.footer_bar]
+
+foreground = "#1e1e2e"
+background = "#cdd6f4"
+
+
+############################
+# 行位置指示器颜色
+############################
+[colors.line_indicator]
+
+foreground = "None"
+background = "None"
+
+
+############################
+# 文本选区颜色
+############################
+[colors.selection]
+
+text = "CellBackground"
+
+# Catppuccin 蓝色选区
+background = "#89b4fa"
+
+
+############################
+# 标准16色（普通颜色）
+############################
+[colors.normal]
+
+black   = "#45475a"
+red     = "#f38ba8"
+green   = "#a6e3a1"
+yellow  = "#f9e2af"
+blue    = "#89b4fa"
+magenta = "#cba6f7"
+cyan    = "#94e2d5"
+white   = "#bac2de"
+
+
+############################
+# 亮色版本（bold 使用）
+############################
+[colors.bright]
+
+black   = "#585b70"
+red     = "#f38ba8"
+green   = "#a6e3a1"
+yellow  = "#f9e2af"
+blue    = "#89b4fa"
+magenta = "#cba6f7"
+cyan    = "#94e2d5"
+white   = "#a6adc8"
+
+
+############################
+# 暗色版本（dim）
+############################
+[colors.dim]
+
+black   = "#313244"
+red     = "#f38ba8"
+green   = "#a6e3a1"
+yellow  = "#f9e2af"
+blue    = "#89b4fa"
+magenta = "#cba6f7"
+cyan    = "#94e2d5"
+white   = "#7f849c"

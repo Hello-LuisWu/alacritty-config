@@ -1,0 +1,140 @@
+# ===== 颜色配置 =====
+[colors]
+
+
+# 粗体文字使用亮色版本
+# 建议开启，否则 bold 不明显
+draw_bold_text_with_bright_colors = true
+
+
+# 是否让所有背景颜色透明
+# false = 只有默认背景透明
+# true  = 所有单元格透明
+transparent_background_colors = true
+
+########################
+# 主题颜色
+########################
+[colors.primary]
+
+# 终端北京颜色
+background = '#222222'
+
+# 终端文字默认颜色
+foreground = '#dfbf8e'
+
+# 暗淡文字颜色
+# 不设置会自动计算
+dim_foreground = "#333aaa"
+
+# 粗体高亮文字颜色
+bright_foreground = "#ee99dd"
+
+###############################
+# 光标颜色
+###############################
+# text   = 光标内文字颜色
+# cursor = 光标颜色
+[colors.cursor]
+text = "#ffffff"
+cursor = "#ccbb22"
+
+
+############################
+# 搜索颜色（Ctrl+Shift+F）
+############################
+[colors.search]
+
+# 普通匹配结果
+matches = { foreground = "#282828", background = "#b8bb26" }
+
+# 当前匹配项
+focused_match = { foreground = "#282828", background = "#fabd2f" }
+
+
+############################
+# hints 提示颜色
+# Ctrl+Shift+O 等提示标签颜色
+############################
+[colors.hints]
+
+# 第一个字符颜色
+start = { foreground = "#282828", background = "#fabd2f" }
+
+# 后续字符颜色
+end = { foreground = "#282828", background = "#fe8019" }
+
+
+############################
+# 底部栏颜色
+# 搜索输入时底部提示栏颜色
+############################
+[colors.footer_bar]
+
+foreground = "#282828"
+background = "#ebdbb2"
+
+
+############################
+# 行位置指示器颜色
+# vi模式或搜索模式下使用
+############################
+[colors.line_indicator]
+
+# None 表示自动反色
+foreground = "None"
+background = "None"
+
+
+############################
+# 文本选区颜色
+############################
+[colors.selection]
+
+# 被选中文字颜色
+text = "CellBackground"
+
+# 选区背景颜色
+# 推荐蓝灰色，不刺眼
+background = "#83a598"
+
+############################
+# 标准16色（普通颜色）
+############################
+[colors.normal]
+black   = '#665c54'
+red     = '#ea6962'
+green   = '#a9b665'
+yellow  = '#e78a4e'
+blue    = '#7daea3'
+magenta = '#d3869b'
+cyan    = '#89b482'
+white   = '#dfbf8e'
+
+############################
+# 亮色版本（bold 使用）
+############################
+[colors.bright]
+black   = '#928374'
+red     = '#ea6962'
+green   = '#a9b665'
+yellow  = '#e3a84e'
+blue    = '#7daea3'
+magenta = '#d3869b'
+cyan    = '#89b482'
+white   = '#dfbf8e'
+
+############################
+# 暗色版本（dim）
+# 不设置也可以自动计算
+############################
+[colors.dim]
+
+black = "#1d2021"
+red = "#9d0006"
+green = "#79740e"
+yellow = "#b57614"
+blue = "#076678"
+magenta = "#8f3f71"
+cyan = "#427b58"
+white = "#928374"

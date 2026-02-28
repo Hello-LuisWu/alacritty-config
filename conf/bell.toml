@@ -8,7 +8,7 @@
 animation = "EaseOutExpo"
 
 # 闪烁时间（毫秒）
-duration = 150
+duration = 40
 
 # 柔和灰色，不刺眼
 color = "#555555"

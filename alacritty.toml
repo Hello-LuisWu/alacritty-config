@@ -2,12 +2,12 @@
 
 [general]
 import = [
-    "~/.config/alacritty/conf/colors.toml.toml", # 配置颜色主题
+    "~/.config/alacritty/conf/theme.toml", # 配置颜色主题
     "~/.config/alacritty/conf/keymap.toml",     # 导入快捷键配置
     "~/.config/alacritty/conf/env.toml",     # 配置环境变量
     "~/.config/alacritty/conf/terminal.toml",     # 终端配置
     "~/.config/alacritty/conf/font.toml",     # 字体配置
-    "~/.config/alacritty/conf/scrolling.toml",     # 
+    "~/.config/alacritty/conf/scrolling.toml",     #
     "~/.config/alacritty/conf/window.toml",     # 窗口配置
     "~/.config/alacritty/conf/selection.toml",     # 划词配置
     "~/.config/alacritty/conf/cursor.toml",     # 光标配置
@@ -18,4 +18,4 @@ import = [
 ]
 working_directory = "None"
 live_config_reload = true  # 保存是自动加载配置文件
-ipc_socket = true # 开启通知消息 (unix only)
+ipc_socket = true # 是否开启通知消息 (unix only)
