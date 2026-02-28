@@ -1,0 +1,26 @@
+############################
+# Debug 配置
+############################
+
+[debug]
+
+# 默认日志级别
+log_level = "Warn"
+
+# 关闭渲染计时
+render_timer = false
+
+# 退出后不保存日志
+persistent_logging = false
+
+# 自动选择最佳渲染器
+renderer = "None"
+
+# 不打印窗口事件
+print_events = false
+
+# 不显示损坏区域
+highlight_damage = false
+
+# macOS 不需要 EGL
+prefer_egl = false
