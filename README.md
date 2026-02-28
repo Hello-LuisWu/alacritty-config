@@ -3,5 +3,5 @@
 ### clone files
 
 ```sh
-git clone https://github.com/Hello-LuisWu/nvim-config.git ~/.config/alacritty
+git clone https://github.com/Hello-LuisWu/alacritty-config.git ~/.config/alacritty
 ```
