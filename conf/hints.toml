@@ -49,3 +49,16 @@ post_processing = false
 persist = false
 
 binding = { key = "Y", mods = "Control|Shift" }
+
+
+###########################
+# Git commit 快速复制
+###########################
+
+[[hints.enabled]]
+
+regex = "[0-9a-f]{7,40}"
+
+action = "Copy"
+
+binding = { key = "G", mods = "Control|Shift" }
