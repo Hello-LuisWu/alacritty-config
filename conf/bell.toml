@@ -11,7 +11,7 @@ animation = "EaseOutExpo"
 duration = 40
 
 # 柔和灰色，不刺眼
-color = "#555555"
+color = "#ffffff"
 
 # 不执行任何外部命令
 command = "None"

@@ -1,8 +1,8 @@
 # ===== 窗口配置 =====
 [window]
 dynamic_title = false   # 是否允许终端程序修改窗口标题
-blur = true   # 开启模糊
-position = { x = 1500, y = 300}  # 启动后窗口的位置
+blur          = true   # 开启模糊
+position      = { x = 1500, y = 300}  # 启动后窗口的位置
 
 # 窗口装饰
 # - "Full"         → 有边框 + 标题栏（默认）
@@ -10,9 +10,9 @@ position = { x = 1500, y = 300}  # 启动后窗口的位置
 # - "Transparent"  → macOS 专用，透明标题栏 + 按钮
 # - "Buttonless"   → macOS 专用，透明标题栏，无按钮
 decorations = "Buttonless"
-opacity = 0.7
-title = "Luis Wu"
-padding = { x = 5, y = 2}  # 内边距
+opacity     = 0.7
+title       = "Luis Wu"
+padding     = { x = 5, y = 2}  # 内边距
 
 # 启动模式
 # - "Windowed"         → 普通窗口（默认）

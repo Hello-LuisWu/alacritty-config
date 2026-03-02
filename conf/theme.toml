@@ -8,7 +8,7 @@ draw_bold_text_with_bright_colors = true
 # 是否让所有背景颜色透明
 # false = 只有默认背景透明
 # true  = 所有单元格透明
-transparent_background_colors = true
+transparent_background_colors = false
 
 
 ########################
