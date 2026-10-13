@@ -1,6 +1,7 @@
+
 # alacritty-config
 
-### clone files
+## clone files
 
 ```sh
 git clone https://github.com/Hello-LuisWu/alacritty-config.git ~/.config/alacritty

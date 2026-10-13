@@ -17,10 +17,10 @@ transparent_background_colors = false
 [colors.primary]
 
 # 终端背景颜色
-background = "#1e1e2e"
+background = '#282828'
 
 # 终端文字默认颜色
-foreground = "#cdd6f4"
+foreground = '#ebdbb2'
 
 # 暗淡文字颜色
 dim_foreground = "#7f849c"
@@ -96,15 +96,14 @@ background = "#89b4fa"
 # 标准16色（普通颜色）
 ############################
 [colors.normal]
-
-black   = "#45475a"
-red     = "#f38ba8"
-green   = "#a6e3a1"
-yellow  = "#f9e2af"
-blue    = "#89b4fa"
-magenta = "#cba6f7"
-cyan    = "#94e2d5"
-white   = "#bac2de"
+black   = '#282828'
+red     = '#cc241d'
+green   = '#98971a'
+yellow  = '#d79921'
+blue    = '#458588'
+magenta = '#b16286'
+cyan    = '#689d6a'
+white   = '#a89984'
 
 
 ############################
@@ -112,14 +111,14 @@ white   = "#bac2de"
 ############################
 [colors.bright]
 
-black   = "#585b70"
-red     = "#f38ba8"
-green   = "#a6e3a1"
-yellow  = "#f9e2af"
-blue    = "#89b4fa"
-magenta = "#cba6f7"
-cyan    = "#94e2d5"
-white   = "#a6adc8"
+black   = '#928374'
+red     = '#fb4934'
+green   = '#b8bb26'
+yellow  = '#fabd2f'
+blue    = '#83a598'
+magenta = '#d3869b'
+cyan    = '#8ec07c'
+white   = '#ebdbb2'
 
 
 ############################
